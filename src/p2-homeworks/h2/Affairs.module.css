@@ -1,3 +1,48 @@
-.someClass {
+.allAffairs {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  background-color: darkgrey;
+}
 
+.affair {
+  display: flex;
+  box-sizing: border-box;
+  width: calc(100% - 10px);
+  height: 30px;
+  margin: 0px 0px 10px 10px;
+  justify-content: space-between;
+}
+.affair button {
+  display: flex;
+  justify-self: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+.id {
+  color: blue;
+  margin-right: 10px;
+}
+.name {
+  margin-right: 10px;
+  word-wrap: break-word;
+  width: 100px;
+}
+.preorityHigh {
+  color: red;
+  margin-right: 10px;
+}
+.preorityMiddle {
+  color: orange;
+  margin-right: 10px;
+}
+.preorityLow {
+  color: green;
+  margin-right: 10px;
+}
+button {
+  width: 60px;
+  height: 30px;
+  border: darkgray 1px solid;
+  margin-left: 10px;
 }
